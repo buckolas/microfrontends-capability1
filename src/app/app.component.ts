@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'microfrontends-capability1';
+  title = 'Microfrontend Capability #1';
 }
