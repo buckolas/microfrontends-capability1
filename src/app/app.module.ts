@@ -9,10 +9,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatInputModule } from '@angular/material/input';
 import { MatNativeDateModule } from '@angular/material/core';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
-    Capability1AppComponent
+    Capability1AppComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

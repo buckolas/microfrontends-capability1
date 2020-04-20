@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   // selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class Capability1AppComponent {
   title = 'Microfrontends Capability #1';
+  app = environment.application;
+  @Input() parentapp: string;
 }
